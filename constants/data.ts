@@ -1,0 +1,40 @@
+import { DataType } from "../types";
+
+export const data: DataType[] = [
+  {
+    id: 1,
+    heading: "Clodron #1",
+    subheading: "It is first of its kind",
+    text: "Lorem lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
+    swatchColor: "#E6D3C4",
+    background: "#e5e5e5",
+    headingColor: "#000",
+    subHeadingColor: "#000",
+    textColor: "#000",
+    buttonColor: { text: "#000", background: "#D7B172" },
+  },
+  {
+    id: 2,
+    heading: "Clodron #2",
+    subheading: "It is first of its kind",
+    text: "Lorem lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
+    swatchColor: "#FFFFFF",
+    background: "#79716c",
+    headingColor: "#ffffff",
+    subHeadingColor: "#ffffff",
+    textColor: "#ffffff",
+    buttonColor: { text: "#ffffff", background: "#774a37" },
+  },
+  {
+    id: 3,
+    heading: "Clodron #3",
+    subheading: "It is first of its kind",
+    text: "Lorem lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
+    swatchColor: "#4F92B1",
+    background: "#C1D6E3",
+    headingColor: "#1F333E",
+    subHeadingColor: "#1F333E",
+    textColor: "#1F333E",
+    buttonColor: { text: "#ffffff", background: "#2f7393" },
+  },
+];
