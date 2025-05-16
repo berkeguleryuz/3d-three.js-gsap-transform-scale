@@ -12,4 +12,5 @@ export interface DataType {
     text: string;
     background: string;
   };
+  itemList?: { [key: string]: { color: string } };
 }
